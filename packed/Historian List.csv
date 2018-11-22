@@ -1,0 +1,119 @@
+﻿value_recorded,En Description,EN Para,中文描述,中文参数
+V5-AI-1/PV.CV,AI-1,PV,AI-1,PV测量值
+V5-AI-2/PV.CV,AI-2,PV,AI-2,PV测量值
+V5-AIC-DO/FS_CTRL1/DO_COMP1/PV.CV,DO Probe-1,Comp. DO Value,DO探头-1,补偿后DO
+V5-AIC-DO/FS_CTRL1/DO_COMP2/PV.CV,DO Probe-2,Comp. DO Value,DO探头-2,补偿后DO
+V5-AIC-DO/FS_CTRL1/DO_COMP3/PV.CV,DO Probe-3,Comp. DO Value,DO探头-3,补偿后DO
+V5-AIC-DO/OUT.CV,DO Control,OUT,DO控制,OUT输出值
+V5-AIC-DO/PV.CV,DO Control,PV,DO控制,PV测量值
+V5-AIC-DO/SP.CV,DO Control,SP,DO控制,SP设定值
+V5-AIC-PH/FS_CTRL1/PH_COMP1/OUT.CV,pH Probe-1,Comp. pH Value,pH探头-1,补偿后pH
+V5-AIC-PH/FS_CTRL1/PH_COMP2/OUT.CV,pH Probe-2,Comp. pH Value,pH探头-2,补偿后pH
+V5-AIC-PH/FS_CTRL1/PH_COMP3/OUT.CV,pH Probe-3,Comp. pH Value,pH探头-3,补偿后pH
+V5-AIC-PH/OUT.CV,pH Control,OUT,pH控制,OUT输出值
+V5-AIC-PH/PV.CV,pH Control,PV,pH控制,PV测量值
+V5-AIC-PH/SP.CV,pH Control,SP,pH控制,SP设定值
+V5-AI-LE1/LE1/OUT.CV,Lab Entry-1,Log Value,离线检测-1,检测值
+V5-AI-LE1/LE1/SAMPLE_TIME.CV,Lab Entry-1,Sample Time,离线检测-1,取样时间
+V5-AI-LE1/LE2/OUT.CV,Lab Entry-2,Log Value,离线检测-2,检测值
+V5-AI-LE1/LE2/SAMPLE_TIME.CV,Lab Entry-2,Sample Time,离线检测-2,取样时间
+V5-AI-LE1/LE3/OUT.CV,Lab Entry-3,Log Value,离线检测-3,检测值
+V5-AI-LE1/LE3/SAMPLE_TIME.CV,Lab Entry-3,Sample Time,离线检测-3,取样时间
+V5-AI-LE1/LE4/OUT.CV,Lab Entry-4,Log Value,离线检测-4,检测值
+V5-AI-LE1/LE4/SAMPLE_TIME.CV,Lab Entry-4,Sample Time,离线检测-4,取样时间
+V5-AI-LE1/LE5/OUT.CV,Lab Entry-5,Log Value,离线检测-5,检测值
+V5-AI-LE1/LE5/SAMPLE_TIME.CV,Lab Entry-5,Sample Time,离线检测-5,取样时间
+V5-COMMON/BATCH_ID.CV,Batch,Batch ID,批次,批次编号
+V5-COMMON/BATCH_START.CV,Batch,Batch_Start,批次,开始标志
+V5-COMMON/OPERATION.CV,Batch,Operation,批次,操作
+V5-FIC-1/OUT.CV,Gas Flow-1,OUT,气体流量-1,OUT输出值
+V5-FIC-1/PV.CV,Gas Flow-1,PV,气体流量-1,PV测量值
+V5-FIC-1/SP.CV,Gas Flow-1,SP,气体流量-1,SP设定值
+V5-FIC-2/OUT.CV,Gas Flow-2,OUT,气体流量-2,OUT输出值
+V5-FIC-2/PV.CV,Gas Flow-2,PV,气体流量-2,PV测量值
+V5-FIC-2/SP.CV,Gas Flow-2,SP,气体流量-2,SP设定值
+V5-FIC-3/OUT.CV,Gas Flow-3,OUT,气体流量-3,OUT输出值
+V5-FIC-3/PV.CV,Gas Flow-3,PV,气体流量-3,PV测量值
+V5-FIC-3/SP.CV,Gas Flow-3,SP,气体流量-3,SP设定值
+V5-FIC-4/OUT.CV,Gas Flow-4,OUT,气体流量-4,OUT输出值
+V5-FIC-4/PV.CV,Gas Flow-4,PV,气体流量-4,PV测量值
+V5-FIC-4/SP.CV,Gas Flow-4,SP,气体流量-4,SP设定值
+V5-FIC-5/OUT.CV,Gas Flow-5,OUT,气体流量-5,OUT输出值
+V5-FIC-5/PV.CV,Gas Flow-5,PV,气体流量-5,PV测量值
+V5-FIC-5/SP.CV,Gas Flow-5,SP,气体流量-5,SP设定值
+V5-FIC-6/OUT.CV,Gas Flow-6,OUT,气体流量-6,OUT输出值
+V5-FIC-6/PV.CV,Gas Flow-6,PV,气体流量-6,PV测量值
+V5-FIC-6/SP.CV,Gas Flow-6,SP,气体流量-6,SP设定值
+V5-IO/DO1_NA_PV.CV,DO Probe-1,nA Value,DO探头-1,nA检测值
+V5-IO/DO1_TMP_PV.CV,DO Probe-1,Comp. Temperature,DO探头-1,补偿温度
+V5-IO/DO2_NA_PV.CV,DO Probe-2,nA Value,DO探头-2,nA检测值
+V5-IO/DO2_TMP_PV.CV,DO Probe-2,Comp. Temperature,DO探头-2,补偿温度
+V5-IO/PH1_MV_PV.CV,pH Probe-1,mV Value,pH探头-1,mV检测值
+V5-IO/PH1_TMP_PV.CV,pH Probe-1,Comp. Temperature,pH探头-1,补偿温度
+V5-IO/PH2_MV_PV.CV,pH Probe-2,mV Value,pH探头-2,mV检测值
+V5-IO/PH2_TMP_PV.CV,pH Probe-2,Comp. Temperature,pH探头-2,补偿温度
+V5-IO/VSL_TMP1_PV.CV,Vessel Temp. Probe-1,PV,反应器温度-1,PV测量值
+V5-IO/VSL_TMP2_PV.CV,Vessel Temp. Probe-2,PV,反应器温度-2,PV测量值
+V5-IO/VSL_TMP3_PV.CV,Vessel Temp. Probe-3,PV,反应器温度-3,PV测量值
+V5-PI-VSL/PV.CV,Bag Pressure,PV,袋子压力,PV测量值
+V5-SIC-1/DOSE_ERRAB.CV,Pump-1,Dose Error (EN),泵-1,计量误差（工程单位）
+V5-SIC-1/DOSE_ERRPC.CV,Pump-1,Dose Error (%),泵-1,计量误差（%百分比）
+V5-SIC-1/DOSE_PV.CV,Pump-1,Dose PV,泵-1,计量PV测量值
+V5-SIC-1/DOSE_SP.CV,Pump-1,Dose SP,泵-1,计量SP设定
+V5-SIC-1/FLOW_TOT.CV,Pump-1,Flow Total,泵-1,流量累计
+V5-SIC-1/OUT.CV,Pump-1,OUT,泵-1,OUT输出值
+V5-SIC-1/PV.CV,Pump-1,PV,泵-1,PV测量值
+V5-SIC-1/SP.CV,Pump-1,SP,泵-1,SP设定值
+V5-SIC-2/DOSE_ERRAB.CV,Pump-2,Dose Error (EN),泵-2,计量误差（工程单位）
+V5-SIC-2/DOSE_ERRPC.CV,Pump-2,Dose Error (%),泵-2,计量误差（%百分比）
+V5-SIC-2/DOSE_PV.CV,Pump-2,Dose PV,泵-2,计量PV测量值
+V5-SIC-2/DOSE_SP.CV,Pump-2,Dose SP,泵-2,计量SP设定
+V5-SIC-2/FLOW_TOT.CV,Pump-2,Flow Total,泵-2,流量累计
+V5-SIC-2/OUT.CV,Pump-2,OUT,泵-2,OUT输出值
+V5-SIC-2/PV.CV,Pump-2,PV,泵-2,PV测量值
+V5-SIC-2/SP.CV,Pump-2,SP,泵-2,SP设定值
+V5-SIC-3/DOSE_ERRAB.CV,Pump-3,Dose Error (EN),泵-3,计量误差（工程单位）
+V5-SIC-3/DOSE_ERRPC.CV,Pump-3,Dose Error (%),泵-3,计量误差（%百分比）
+V5-SIC-3/DOSE_PV.CV,Pump-3,Dose PV,泵-3,计量PV测量值
+V5-SIC-3/DOSE_SP.CV,Pump-3,Dose SP,泵-3,计量SP设定
+V5-SIC-3/FLOW_TOT.CV,Pump-3,Flow Total,泵-3,流量累计
+V5-SIC-3/OUT.CV,Pump-3,OUT,泵-3,OUT输出值
+V5-SIC-3/PV.CV,Pump-3,PV,泵-3,PV测量值
+V5-SIC-3/SP.CV,Pump-3,SP,泵-3,SP设定值
+V5-SIC-4/DOSE_ERRAB.CV,Pump-4,Dose Error (EN),泵-4,计量误差（工程单位）
+V5-SIC-4/DOSE_ERRPC.CV,Pump-4,Dose Error (%),泵-4,计量误差（%百分比）
+V5-SIC-4/DOSE_PV.CV,Pump-4,Dose PV,泵-4,计量PV测量值
+V5-SIC-4/DOSE_SP.CV,Pump-4,Dose SP,泵-4,计量SP设定
+V5-SIC-4/FLOW_TOT.CV,Pump-4,Flow Total,泵-4,流量累计
+V5-SIC-4/OUT.CV,Pump-4,OUT,泵-4,OUT输出值
+V5-SIC-4/PV.CV,Pump-4,PV,泵-4,PV测量值
+V5-SIC-4/SP.CV,Pump-4,SP,泵-4,SP设定值
+V5-SIC-AGIT/OUT.CV,Agitator Speed,OUT,搅拌转速,OUT输出值
+V5-SIC-AGIT/PV.CV,Agitator Speed,PV,搅拌转速,PV测量值
+V5-SIC-AGIT/SP.CV,Agitator Speed,SP,搅拌转速,SP设定值
+V5-SPEED-GOV/ENAB_SPD_GOV.CV,Agitator Speed Governor,Enable,搅拌转数限制,使能
+V5-SPEED-GOV/PIV.CV,Agitator Speed Governor,PIV,搅拌转数限制,单位体积功率
+V5-SPEED-GOV/RPM_MAX_VAL.CV,Agitator Speed Governor,Max Value,搅拌转数限制,转速高限
+V5-TIC-JKT/OUT.CV,Vessel Jacket Temperature,OUT,反应器夹套温度,OUT输出值
+V5-TIC-JKT/PV.CV,Vessel Jacket Temperature,PV,反应器夹套温度,PV测量值
+V5-TIC-JKT/SP.CV,Vessel Jacket Temperature,SP,反应器夹套温度,SP设定值
+V5-TIC-VNT1/OUT.CV,Vent Filter Heater-1,OUT,排气过滤加热-1,OUT输出值
+V5-TIC-VNT1/PV.CV,Vent Filter Heater-1,PV,排气过滤加热-1,PV测量值
+V5-TIC-VNT1/SP.CV,Vent Filter Heater-1,SP,排气过滤加热-1,SP设定值
+V5-TIC-VNT2/OUT.CV,Vent Filter Heater-2,OUT,排气过滤加热-2,OUT输出值
+V5-TIC-VNT2/PV.CV,Vent Filter Heater-2,PV,排气过滤加热-2,PV测量值
+V5-TIC-VNT2/SP.CV,Vent Filter Heater-2,SP,排气过滤加热-2,SP设定值
+V5-TIC-VSL/OUT.CV,Vessel Temperature,OUT,反应器温度,OUT输出值
+V5-TIC-VSL/PV.CV,Vessel Temperature,PV,反应器温度,PV测量值
+V5-TIC-VSL/SP.CV,Vessel Temperature,SP,反应器温度,SP设定值
+V5-WI-1/PV.CV,Weight-1,PV,称重-1,PV测量值
+V5-WI-2/PV.CV,Weight-2,PV,称重-2,PV测量值
+V5-WIC-VSL/OUT.CV,Vessel Weight,OUT,罐重,OUT输出值
+V5-WIC-VSL/PV.CV,Vessel Weight,PV,罐重,PV测量值
+V5-WIC-VSL/SP.CV,Vessel Weight,SP,罐重,SP设定值
+V5-XIC-1/OUT.CV,XIC-1,OUT,XIC-1,OUT输出值
+V5-XIC-1/PV.CV,XIC-1,PV,XIC-1,PV测量值
+V5-XIC-1/SP.CV,XIC-1,SP,XIC-1,SP设定值
+V5-XIC-2/OUT.CV,XIC-2,OUT,XIC-2,OUT输出值
+V5-XIC-2/PV.CV,XIC-2,PV,XIC-2,PV测量值
+V5-XIC-2/SP.CV,XIC-2,SP,XIC-2,SP设定值

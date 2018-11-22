@@ -1,6 +1,12 @@
-from struct import pack, unpack
+'''
+从TB的paramter list中读入参数列表
+'''
 
-FILE_PATH = r'.\SETUP.fsd'
+from struct import pack, unpack
+import os.path
+from XF_common.XF_SERIALIZING import serializing
+from XF_common.XF_LOG_MANAGE import *
+
 
 '''
 i1 = 256
@@ -9,7 +15,9 @@ rslt_i1 = unpack('i',b_i1)
 
 print('i1:{}   b_i1:{}   rslt_i1:{}'.format(i1,b_i1,rslt_i1))
 '''
-def read_parameter():
+def read_tb_parameter():
+    """从TB的paramter list中读入参数列表
+    return:<string>"""
     with open(FILE_PATH,'rb') as f:
         slice = '--init--'
         result = []
@@ -21,6 +29,75 @@ def read_parameter():
             _t = slice.decode('ascii').strip('~').replace('|','')
             result.append(_t)
 
-   
-for i in read_parameter():
-    print(i)
+def dump_avail_pens(csv_path=r'.\packed\Historian List.csv'):
+    """将csv文件available historian trends导出成object
+    -return:<list> [pen_profile1,pen_profile2,...]
+    -csv_path:<str> e.g. r'.\packed\Historian List.csv'
+    """
+    if not os.path.isfile(csv_path):
+        log_args = [csv_path]
+        add_log(20, 'file not found. --"{0[0]}"', log_args)
+        return
+    avail_pens = []
+    line = 1
+    with open(csv_path,'r', encoding='utf8') as f:
+        while True:
+            steam = f.readline()
+            if not steam:
+                break
+            if line == 1:
+                line += 1
+                continue
+            pen = Pen_Profile()
+            pen.pen_csv_to_list(steam)
+            avail_pens.append(pen)
+            line += 1
+    dump_path = r'.\apens.dtp'
+    serializing(avail_pens,dump_path)
+    log_args = [dump_path]
+    add_log(30, 'fn: dump_avail_pens() dumped to "{0[0]}"', log_args)
+
+class Pen_Profile():
+    def __init(self):
+        self.idendity = None
+        self.en_description = None
+        self.en_parameter = None
+        self.ch_description = None
+        self.ch_parameter = None
+
+    def pen_csv_to_list(self, steam):
+        """从CSV中读入Historian形式列表
+        return:
+        steam:<str> csv readin line
+        """
+        self.identity, self.en_description, self.en_parameter, self.ch_description, self.ch_parameter = steam.split(',')
+
+
+if __name__ == '__main__':
+    '''
+    FILE_PATH = r'.\packed\SETUP.fsd'
+    for i in read_tb_parameter():
+        print(i)
+    '''
+    '''
+    FILE_PATH = r'.\packed\Historian List.csv'
+    avail_pens = []
+    line = 1
+    with open(FILE_PATH,'r', encoding='utf8') as f:
+        while True:
+            steam = f.readline()
+            #print("{}: {}".format(line,steam))
+            if not steam:
+                break
+            if line == 1:
+                line += 1
+                continue
+            pen = Pen_Profile()
+            pen.pen_csv_to_list(steam)
+            avail_pens.append(pen)
+            line += 1
+
+    for i in avail_pens:
+        print(i.en_description, i.ch_description)
+    '''
+    dump_avail_pens()
