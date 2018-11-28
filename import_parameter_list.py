@@ -6,7 +6,7 @@ from struct import pack, unpack
 import os.path
 from XF_common.XF_SERIALIZING import serializing
 from XF_common.XF_LOG_MANAGE import *
-
+from XF_common.XF_STATIC import Pen_Profile
 
 '''
 i1 = 256
@@ -56,22 +56,6 @@ def dump_avail_pens(csv_path=r'.\packed\Historian List.csv'):
     serializing(avail_pens,dump_path)
     log_args = [dump_path]
     add_log(30, 'fn: dump_avail_pens() dumped to "{0[0]}"', log_args)
-
-class Pen_Profile():
-    def __init(self):
-        self.idendity = None
-        self.en_description = None
-        self.en_parameter = None
-        self.ch_description = None
-        self.ch_parameter = None
-
-    def pen_csv_to_list(self, steam):
-        """从CSV中读入Historian形式列表
-        return:
-        steam:<str> csv readin line
-        """
-        self.identity, self.en_description, self.en_parameter, self.ch_description, self.ch_parameter = steam.split(',')
-
 
 if __name__ == '__main__':
     '''
