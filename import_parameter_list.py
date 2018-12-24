@@ -6,7 +6,7 @@ from struct import pack, unpack
 import os.path
 from XF_common.XF_SERIALIZING import serializing
 from XF_common.XF_LOG_MANAGE import *
-from XF_common.XF_STATIC import Pen_Profile
+from XF_common.XF_TB_STATIC import Pen_Profile
 
 '''
 i1 = 256
